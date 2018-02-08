@@ -1,0 +1,48 @@
+.trend-card{
+  border: 0.1rem solid $gray-500;
+  border-radius: 1rem;
+  margin: 1rem 0;
+  padding: 1rem 1rem 0;
+  position: relative;
+  .word-count{
+    float: left;
+    font-weight: bold;
+    font-size: 1.4rem;
+    span{
+      font-size: 0.7rem;
+      font-weight: 900;
+    }
+  }
+  .price{
+    float: right;
+    text-align:right;
+    font-size: 0.7rem;
+    span{
+      font-size: 2rem;
+      font-weight: 900;
+    }
+  }
+  .card-title{
+    font-size: 1.2rem;
+    font-weight: 900;
+    min-height: 6rem;
+  }
+  .card-foot{
+    font-weight: 900;
+    clear: both;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+  }
+  i{
+    padding: 0 0.5rem;
+  }
+}
+
+
+.tab-content{
+  .col-xs-12.col-sm-6.col-md-3{
+  margin-bottom: 2rem;
+  }
+}
