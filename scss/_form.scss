@@ -89,28 +89,28 @@
 
 .search-tags{
   text-align: center;
-  a{
-    color:$gray-600;
-    font-weight: bold;
-    text-decoration: none;
-    &:hover, &:active, &:focus{
+    a{
+      color:$gray-600;
+      font-weight: bold;
       text-decoration: none;
+      &:hover, &:active, &:focus{
+        color: $gray-900;
+      }
     }
-  }
   ul{
     text-align: center;
     padding-left: 0;
     display: block;
     width: 75%;
     margin: 0 auto;
-    li{
-      color: $gray-600;
-      margin: 0 0.5rem 1rem;
-      background: $gray-300;
-      padding: 0.5rem 1rem;
-      border-radius: 2rem;
-      text-align: center;
-      display: inline-block;
+      li{
+        color: $gray-600;
+        margin: 0 0.5rem 1rem;
+        background: $gray-300;
+        padding: 0.5rem 1rem;
+        border-radius: 2rem;
+        text-align: center;
+        display: inline-block;
+      }
     }
-  }
 }

@@ -7151,7 +7151,7 @@ nav i {
     font-weight: bold;
     text-decoration: none; }
     .search-tags a:hover, .search-tags a:active, .search-tags a:focus {
-      text-decoration: none; }
+      color: #212529; }
   .search-tags ul {
     text-align: center;
     padding-left: 0;
