@@ -4,16 +4,24 @@ div.row.explore-tabs{
 
 .explore-pills{
   text-align: center;
-  ul.nav {
-    display: inline-block;
+  ul{
+    display: block;
     li {
       display: inline;
+      padding: 0 10px;
+      border-left: solid 0.1rem $gray-500;
+      display: inline-block;
+      &:first-child{
+        border-left: none;
+      }
       a {
-        float: left;
+        // float: left;
+        color: $gray-500;
+        &:hover, &:active, &:focus{
+          color: $gray-900;
+          text-decoration: none;
+        }
       }
     }
   }
 }
-
-ul.nav-pills li:before{ content: "|"; padding: 0 .5em; }
-ul.nav-pills li:first-child:before{ content: ""; padding-left:0;}

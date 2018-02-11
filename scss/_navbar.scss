@@ -1,6 +1,9 @@
 .navbar-nav{
   display: contents;   /* Allow the centering to work */
 	margin: 0 auto;
+  li{
+    padding: 0 0.5rem;
+  }
 }
 
 nav{

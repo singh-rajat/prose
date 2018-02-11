@@ -1,44 +1,51 @@
-.trend-card{
-  border: 0.1rem solid $gray-500;
-  border-radius: 1rem;
-  margin: 1rem 0;
-  padding: 1rem 1rem 0;
-  position: relative;
-  .word-count{
-    float: left;
-    font-weight: bold;
-    font-size: 1.4rem;
-    span{
-      font-size: 0.7rem;
+#trending{
+  margin-top: 5rem;}
+  .trend-card{
+    border: 0.1rem solid $gray-500;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    padding: 1rem 1rem 0;
+    position: relative;
+    .word-count{
+      float: left;
       font-weight: 900;
+      font-size: 1.4rem;
+
+      span{
+        font-size: 0.7rem;
+        // font-weight: 900;
+        color: $gray-500;
+      }
+    }
+    .price{
+      float: right;
+      text-align:right;
+      font-size: 0.6rem;
+      span{
+        font-size: 2.2rem;
+        font-weight: 900;
+      }
+    }
+    .card-title{
+      font-size: 1.2rem;
+      // font-weight: 900;
+      min-height: 6rem;
+    }
+    .card-foot{
+      font-weight: 500;
+      clear: both;
+      text-align: right;
+      position: absolute;
+      bottom: 0;
+      right: 1rem;
+      .fa-circle{
+        color: $gray-500;
+      }
+    }
+    i{
+      padding: 0 0.5rem;
     }
   }
-  .price{
-    float: right;
-    text-align:right;
-    font-size: 0.7rem;
-    span{
-      font-size: 2rem;
-      font-weight: 900;
-    }
-  }
-  .card-title{
-    font-size: 1.2rem;
-    font-weight: 900;
-    min-height: 6rem;
-  }
-  .card-foot{
-    font-weight: 900;
-    clear: both;
-    text-align: right;
-    position: absolute;
-    bottom: 0;
-    right: 1rem;
-  }
-  i{
-    padding: 0 0.5rem;
-  }
-}
 
 
 .tab-content{
